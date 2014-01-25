@@ -1,12 +1,21 @@
 {
     "manifest_version": 2,
-    "icons": "gmail-24.png",
     "description": "Opens a new Gmail compose window",
     
     "name":"New Gmail Window",
-    "broswer_action": {
-        "default_icon":"gmail-24.png"
+    "icons": {
+        "48": "img48.png",
+        "16": "img16.png" },
+        
+    "browser_action": {
+        "default_icon": {
+            "19":"img48.png"
+        },
+        "default_title":"New Gmail Compose"
     },
+    
+    "background": {
+        "scripts":["background.js"] },
     
     "permissions":[ "tabs", "contextMenus" ],
     "version": "1.0"

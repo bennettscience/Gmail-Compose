@@ -11,7 +11,7 @@ The Context Menu takes **any** selected text and adds it to the To: field of the
 
 Because this isn't hosted on the Chrome web store, follow the instructions below to install.
 
-1. Use the "Download .zip" button at the bottom right of this screen.
+1. Use the "Download .zip" button at the right side of this screen.
 2. Unzip the file and save it somewhere on your computer (the desktop is fine).
 3. Open a new tab in Chrome
 4. Type in: `chrome:extensions`
